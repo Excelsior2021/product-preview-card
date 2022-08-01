@@ -31,9 +31,11 @@ main {
 .image-main {
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
-  background-image: url(./images/image-product-mobile.jpg);
-  background-size:cover;
-  height: 250px;
+  width: 100%;
+}
+
+.image-main img{
+  border-radius: inherit;
 }
 
 .information {
@@ -118,7 +120,7 @@ footer {
     width: 568px;
     max-width: none;
     min-width: none;
-    height: 450px;
+    height: 426px;
     margin-top: 10vh;
   }
 
@@ -126,9 +128,12 @@ footer {
     border-top-left-radius: inherit;
     border-top-right-radius: 0;
     border-bottom-left-radius: inherit;
-    background-image: url(./images/image-product-desktop.jpg);
-    height: inherit;
     width: 284px;
+  }
+
+  .image-main img {
+    border-radius: inherit;
+    height: inherit;
   }
 
   .information {
